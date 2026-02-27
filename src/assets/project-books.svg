@@ -1,0 +1,32 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196f3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1976d2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <g transform="translate(100, 80)">
+    <rect x="0" y="0" width="60" height="80" rx="2" fill="white" opacity="0.9"/>
+    <rect x="70" y="0" width="60" height="80" rx="2" fill="white" opacity="0.8"/>
+    <rect x="140" y="0" width="60" height="80" rx="2" fill="white" opacity="0.7"/>
+    <text x="30" y="25" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Book 1</text>
+    <text x="100" y="25" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Book 2</text>
+    <text x="170" y="25" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Book 3</text>
+    <line x1="10" y1="35" x2="50" y2="35" stroke="#666" stroke-width="1"/>
+    <line x1="10" y1="42" x2="50" y2="42" stroke="#666" stroke-width="1"/>
+    <line x1="10" y1="49" x2="45" y2="49" stroke="#666" stroke-width="1"/>
+    <line x1="80" y1="35" x2="120" y2="35" stroke="#666" stroke-width="1"/>
+    <line x1="80" y1="42" x2="120" y2="42" stroke="#666" stroke-width="1"/>
+    <line x1="80" y1="49" x2="115" y2="49" stroke="#666" stroke-width="1"/>
+    <line x1="150" y1="35" x2="190" y2="35" stroke="#666" stroke-width="1"/>
+    <line x1="150" y1="42" x2="190" y2="42" stroke="#666" stroke-width="1"/>
+    <line x1="150" y1="49" x2="185" y2="49" stroke="#666" stroke-width="1"/>
+  </g>
+  <rect x="50" y="180" width="300" height="60" rx="8" fill="white" opacity="0.1"/>
+  <text x="200" y="205" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Book Management System</text>
+  <text x="200" y="225" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" opacity="0.8">TypeScript + Node.js + PostgreSQL</text>
+  <circle cx="120" cy="190" r="4" fill="white" opacity="0.6"/>
+  <circle cx="200" cy="190" r="4" fill="white" opacity="0.6"/>
+  <circle cx="280" cy="190" r="4" fill="white" opacity="0.6"/>
+</svg>

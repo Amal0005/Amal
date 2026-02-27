@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { ChevronDown, Download, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroWorkspace from "@/assets/hero-workspace.jpg";
+import profileImage from "@/assets/me.jpg";
 
 const HeroSection = () => {
   const [currentRole, setCurrentRole] = useState(0);
@@ -113,48 +114,27 @@ const HeroSection = () => {
 
           </div>
 
-          {/* Right: Visual - Tech marquees */}
-          <div className="relative hidden md:flex flex-col justify-center gap-4 h-[360px]">
-            <div className="marquee">
-              <div className="marquee-track">
-                {[
-                  'React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'Vite', 'Tailwind'
-                ].map((t, i) => (
-                  <span key={`m1-${i}`} className="badge">{t}</span>
-                ))}
-                {[
-                  'React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'Vite', 'Tailwind'
-                ].map((t, i) => (
-                  <span key={`m1b-${i}`} className="badge">{t}</span>
-                ))}
+          {/* Right: Profile Image */}
+          <div className="relative hidden md:flex justify-center items-center h-[360px]">
+            <div className="relative">
+              {/* Profile image with decorative frame */}
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-accent/20 shadow-2xl hover-scale">
+                <img 
+                  src={profileImage} 
+                  alt="Amal N T - Full Stack Developer" 
+                  className="w-full h-full object-cover"
+                />
               </div>
-            </div>
-            <div className="marquee marquee-reverse">
-              <div className="marquee-track">
-                {[
-                  'JWT', 'Docker', 'ESLint', 'Prettier', 'Vercel', 'Git'
-                ].map((t, i) => (
-                  <span key={`m2-${i}`} className="badge">{t}</span>
-                ))}
-                {[
-                  'JWT', 'Docker', 'ESLint', 'Prettier', 'Vercel', 'Git'
-                ].map((t, i) => (
-                  <span key={`m2b-${i}`} className="badge">{t}</span>
-                ))}
+              
+              {/* Decorative ring */}
+              <div className="absolute inset-0 rounded-full border-2 border-primary/30 animate-pulse" />
+              
+              {/* Floating badges */}
+              <div className="absolute -top-4 -right-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-semibold">
+                Full-Stack
               </div>
-            </div>
-            <div className="marquee">
-              <div className="marquee-track">
-                {[
-                  'WebSockets', 'Performance', 'Accessibility', 'Testing', 'Animations', 'Design Systems'
-                ].map((t, i) => (
-                  <span key={`m3-${i}`} className="badge">{t}</span>
-                ))}
-                {[
-                  'WebSockets', 'Performance', 'Accessibility', 'Testing', 'Animations', 'Design Systems'
-                ].map((t, i) => (
-                  <span key={`m3b-${i}`} className="badge">{t}</span>
-                ))}
+              <div className="absolute -bottom-4 -left-4 bg-accent text-accent-foreground px-3 py-1 rounded-full text-xs font-semibold">
+                MERN
               </div>
             </div>
           </div>

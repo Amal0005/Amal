@@ -4,8 +4,11 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import projectEcommerce from "@/assets/project-ecommerce.jpg";
-import projectTasks from "@/assets/project-tasks.jpg";
-import projectWeather from "@/assets/project-weather.jpg";
+import projectQuotes from "@/assets/project-quotes.svg";
+import projectNetflix from "@/assets/project-netflix.svg";
+import projectBooks from "@/assets/project-books.svg";
+import projectOlx from "@/assets/project-olx.svg";
+import projectTodo from "@/assets/project-todo.svg";
 
 interface GitHubRepo {
   id: number;
@@ -48,7 +51,7 @@ const ProjectsSection = () => {
     'Clone-Netflix',
   ];
 
-  const projectImages = [projectEcommerce, projectTasks, projectWeather];
+  const projectImages = [projectEcommerce, projectQuotes, projectNetflix, projectBooks, projectOlx, projectTodo];
 
   const manualFeatured: Project[] = [
     {
@@ -67,7 +70,7 @@ const ProjectsSection = () => {
       id: 900002,
       title: 'Random Quote Generator',
       description: 'Dynamic quote display',
-      image: projectTasks,
+      image: projectQuotes,
       category: 'Frontend',
       technologies: ['React', 'JavaScript', 'CSS3'],
       github: 'https://github.com/Amal0005/happy-quotes',
@@ -79,7 +82,7 @@ const ProjectsSection = () => {
       id: 900003,
       title: 'Netflix-Clone',
       description: 'Video streaming platform',
-      image: projectWeather,
+      image: projectNetflix,
       category: 'Frontend',
       technologies: ['React', 'TMDB API', 'CSS3'],
       github: 'https://github.com/Amal0005/Netflix-clone',
@@ -91,7 +94,7 @@ const ProjectsSection = () => {
       id: 900004,
       title: 'Book Management System',
       description: 'Backend with TypeScript',
-      image: projectEcommerce,
+      image: projectBooks,
       category: 'Backend',
       technologies: ['TypeScript', 'Node.js', 'Express', 'PostgreSQL'],
       github: 'https://github.com/Amal0005/Book-Management-TypeScript',
@@ -103,7 +106,7 @@ const ProjectsSection = () => {
       id: 900005,
       title: 'Olx-Clone',
       description: 'Buy and sell products',
-      image: projectTasks,
+      image: projectOlx,
       category: 'Frontend',
       technologies: ['React', 'CSS3', 'HTML5'],
       github: 'https://github.com/Amal0005/OLX-Clone-react',
@@ -115,7 +118,7 @@ const ProjectsSection = () => {
       id: 900006,
       title: 'ToDo App',
       description: 'Task management tool',
-      image: projectWeather,
+      image: projectTodo,
       category: 'Frontend',
       technologies: ['React', 'TypeScript', 'Tailwind CSS'],
       github: 'https://github.com/Amal0005/ToDo-React',
@@ -158,8 +161,7 @@ const ProjectsSection = () => {
       "mysql": "MySQL",
       "postgresql": "PostgreSQL",
       "firebase": "Firebase",
-      "socketio": "Socket.io"
-    };
+          };
 
     topics.forEach(topic => {
       const tech = techMap[topic.toLowerCase()];

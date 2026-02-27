@@ -31,7 +31,7 @@ const SkillsSection = () => {
       icon: Globe,
       title: "Web Technologies",
       description: "Modern web development tools and practices",
-      skills: ["TypeScript", "Redux", "Bootstrap", "Socket.IO", "Next.js"],
+      skills: ["TypeScript", "Redux", "Bootstrap", "Vite", "React Router"],
       color: "accent"
     },
     {

@@ -1,0 +1,21 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e50914;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b20710;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect x="50" y="40" width="300" height="180" rx="8" fill="black" opacity="0.8"/>
+  <text x="200" y="70" font-family="Arial, sans-serif" font-size="20" fill="#e50914" text-anchor="middle" font-weight="bold">NETFLIX</text>
+  <rect x="70" y="90" width="80" height="60" rx="4" fill="white" opacity="0.2"/>
+  <rect x="160" y="90" width="80" height="60" rx="4" fill="white" opacity="0.2"/>
+  <rect x="250" y="90" width="80" height="60" rx="4" fill="white" opacity="0.2"/>
+  <text x="110" y="125" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Movie 1</text>
+  <text x="200" y="125" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Movie 2</text>
+  <text x="290" y="125" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Movie 3</text>
+  <circle cx="85" cy="200" r="8" fill="white" opacity="0.6"/>
+  <path d="M82 197 L82 203 L88 200 Z" fill="#e50914"/>
+  <text x="200" y="205" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Netflix Clone</text>
+  <text x="200" y="225" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" opacity="0.8">Streaming Platform</text>
+</svg>
