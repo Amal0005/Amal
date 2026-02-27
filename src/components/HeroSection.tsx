@@ -65,6 +65,21 @@ const HeroSection = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center max-w-5xl mx-auto">
           {/* Left: Copy */}
           <div className="md:mr-auto md:ml-0 text-center md:text-left space-y-6 animate-slide-up">
+          
+          {/* Mobile Profile Image */}
+          <div className="flex md:hidden justify-center mb-6">
+            <div className="relative">
+              <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-accent/20 shadow-2xl">
+                <img 
+                  src={profileImage} 
+                  alt="Amal N T - Full Stack Developer" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute inset-0 rounded-full border-2 border-primary/30 animate-pulse" />
+            </div>
+          </div>
+          
           {/* Greeting */}
           <p className="text-accent font-medium text-lg md:text-xl">
             Hello, I'm
