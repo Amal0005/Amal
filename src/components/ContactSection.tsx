@@ -102,7 +102,7 @@ const ContactSection = () => {
 
   const socialLinks = [
     { icon: Github, href: "https://github.com/Amal0005", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/amal-nt", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/amal-nt-712b68247", label: "LinkedIn" },
     { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
   ];
 

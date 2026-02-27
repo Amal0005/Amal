@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Code, Github, Linkedin, Mail } from "lucide-react";
+import { Menu, X, Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
@@ -70,19 +70,6 @@ const Navigation = () => {
                     <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full" />
                   </button>
                 ))}
-                
-                {/* Social Links */}
-                <div className="flex items-center space-x-4 ml-8">
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                    <Github className="w-5 h-5 text-foreground hover:text-accent transition-all hover-lift" />
-                  </a>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                    <Linkedin className="w-5 h-5 text-foreground hover:text-accent transition-all hover-lift" />
-                  </a>
-                  <a href="mailto:contact@example.com">
-                    <Mail className="w-5 h-5 text-foreground hover:text-accent transition-all hover-lift" />
-                  </a>
-                </div>
               </div>
             )}
 
@@ -114,19 +101,6 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-            
-            {/* Mobile Social Links */}
-            <div className="flex items-center space-x-6 mt-8">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                <Github className="w-6 h-6 text-foreground hover:text-accent transition-colors" />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                <Linkedin className="w-6 h-6 text-foreground hover:text-accent transition-colors" />
-              </a>
-              <a href="mailto:contact@example.com">
-                <Mail className="w-6 h-6 text-foreground hover:text-accent transition-colors" />
-              </a>
-            </div>
           </div>
         </div>
       )}
